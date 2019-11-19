@@ -1,1 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./imgbin-ron-paul-presidential-campaign-2012-iowa-caucus-republican-party-texas-s-14th-congressional-district-politics-yJNctm8ijch8Qw6y1xfbZAuCN.jpg');
+    background-repeat: repeat-xy; 
+  }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(209, 40, 40);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: crimson;
+  }
+  
+  header {
+    grid-area: header;
+    color: rgb(240, 63, 63);
+    padding: 10px;
+    font-family: 'Gill Sans';
+    font-size: 400%;
+    text-align: center;
+    background-image: url('./imgbin-ron-paul-presidential-campaign-2012-iowa-caucus-republican-party-texas-s-14th-congressional-district-politics-yJNctm8ijch8Qw6y1xfbZAuCN.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main {
+    grid-area: main;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    height: 800px;
+    background-color:gray;
+    font-size: 50px;
+
+
+  }
+  
+  img {
+    width: 25%;
+  }
